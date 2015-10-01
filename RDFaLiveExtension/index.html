@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>RDFa Live Extension</title>
+	<link rel='stylesheet' href='css/jquery-ui-1.10.3.custom.min.css' />
+	<link rel='stylesheet' href='css/prettyPhoto.css' />
+	<link rel='stylesheet' href='css/rlInterface.css' />
+	
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+	<script type='text/javascript' src='js/jquery.layout-latest.js'></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	
+	<script type='text/javascript' src='js/rlServiceAccess.js'></script>
+	<script type='text/javascript' src='js/rlHandleEvent.js'></script>
+	<script type='text/javascript' src='js/rlInterface.js'></script>
+	<script type='text/javascript' src='js/general.js'></script>
+</head>
+
+<body>
+
+<div id="fade"></div>
+<div id="modal">
+	<img id="loader" src="images/wait.gif" />
+</div>
+
+<div id="dialog-message" style="font-size: small; display: none;"></div>
+
+<div class="ui-layout-north">
+	<div id="basicInfo" style="margin-right: 50px;display: -moz-inline-stack;display: inline-block;zoom: 1;*display: inline; float:left;"></div>
+	<div id="relatedSites" style="margin-right: 50px;display: -moz-inline-stack;display: inline-block;zoom: 1;*display: inline;"></div>
+</div>
+<div class="ui-layout-west">
+	<div id="midiaGallery" ></div>
+	<hr>
+	<div id="listResources" ></div>
+</div>
+<div class="ui-layout-east">
+	<div id="interactInputPred" ></div>
+	<div id="similarList" ></div>
+</div>
+<div class="ui-layout-south">
+	<div style="text-align: center;">
+		<label class="box_referential_atomType">
+			Developed by Andre Carlomagno and Cassio Prazeres<br>
+			(carlomagnorocha@gmail.com and cprazeres@gmail.com)<br>
+			Federal University of Bahia - Brazil<br>
+			<a href="https://www.ufba.br/">(https://www.ufba.br/)</a>
+		</label>
+	</div>
+</div>
+<div class="ui-layout-center">
+	<div id="abstractEng" ></div>
+	<div id="relatedInfos" ></div>
+</div>
+
+</body>
+</html>

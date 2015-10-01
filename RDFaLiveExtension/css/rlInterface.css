@@ -1,0 +1,131 @@
+.borderTest{
+	border-style: solid;
+	border-width: 2px;
+	border-color: navy;
+	 
+}
+
+.pnbox_block_info{
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.box_referential_atomLabel{
+	font-size: x-large;
+	font-weight: bold;
+	color: navy;
+}
+
+.box_referential_atomType{
+	font-size: small;
+	font-weight: bold;
+	color: navy;
+}
+
+.box_relatedLink{
+	font-size: small;
+	font-weight: bold;
+	color: navy;
+}
+
+.box_relatedLink:hover{
+	background-color: #E6E8FA;
+}
+
+.box_gallery_media{
+	text-align: center;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.box_imgGalleryMedia{
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.box_imgGalleryMedia:hover{
+	border-color: gray;
+}
+
+.aLinkPreventClick{
+	font-size: small;
+}
+
+.listRelatedResources{
+	font-size: small;
+	float: left;
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+.divRelatedResources{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.divRelatedResources:hover{
+	background-color: #E6E8FA;
+}
+
+.clickHere{
+	font-size: x-small;
+	font-weight: bold;
+	color: blue;
+}
+
+.clickHere:hover{
+	background-color: #E6E8FA;
+}
+
+.labelInputdroppable{
+	color: gray;
+	font-size: x-small;
+}
+
+.contentTooltip{
+	font-size: x-small;
+	font-weight: bold;
+	color: navy;
+}
+
+.linkNonlink:focus {text-decoration: none;color: #000099;outline: none}
+.linkNonlink:link {text-decoration: none;color: #000099}
+.linkNonlink:active {text-decoration: none;}
+.linkNonlink:visited {text-decoration: none;color: #000099}
+.linkNonlink:hover {text-decoration: none;color: #000099}
+
+#fade {
+    display: none;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .70;
+    filter: alpha(opacity=80);
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 78px;
+    height: 78px;
+    padding:30px 15px 0px;
+    border: 3px solid #ababab;
+    box-shadow:1px 1px 10px #ababab;
+    border-radius:20px;
+    background-color: white;
+    z-index: 1002;
+    text-align:center;
+    overflow: auto;
+}
